@@ -8,7 +8,11 @@ jobs:
     name: vm6-fork-spoof
     runs-on: ubuntu-latest
     steps:
-      - run: echo "fork-only check provenance canary reeval"
+      - run: echo "fork-only check provenance canary trusted-positive-trigger"
+
+
+
+
 
 
 
