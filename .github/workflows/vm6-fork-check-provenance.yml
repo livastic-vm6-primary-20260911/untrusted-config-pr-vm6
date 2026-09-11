@@ -2,10 +2,11 @@ name: VM6 Fork Check Provenance Producer
 on:
   push:
     branches:
-      - vm6-fork-check-provenance
+      - ivastic-vm6-secondary-20260911-patch-9
 jobs:
   spoof:
     name: vm6-fork-spoof
     runs-on: ubuntu-latest
     steps:
       - run: echo "fork-only check provenance canary"
+
