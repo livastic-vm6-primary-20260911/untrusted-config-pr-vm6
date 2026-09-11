@@ -1,0 +1,11 @@
+name: VM6 Fork Check Provenance Producer
+on:
+  push:
+    branches:
+      - vm6-fork-check-provenance
+jobs:
+  spoof:
+    name: vm6-fork-spoof
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "fork-only check provenance canary"
