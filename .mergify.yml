@@ -1,7 +1,7 @@
 pull_request_rules:
-  - name: vm6 trusted base positive
+  - name: vm6 attacker clean fork sentinel
     conditions:
-      - title = VM6_BASE_CONFIG_POSITIVE_PR_20260911
+      - title = VM6_ATTACKER_CLEAN_FORK_PR_20260911
     actions:
       comment:
-        message: VM6_BASE_CONFIG_COMMENT_POSITIVE_20260911
+        message: VM6_ATTACKER_CLEAN_FORK_EXECUTED_20260911
