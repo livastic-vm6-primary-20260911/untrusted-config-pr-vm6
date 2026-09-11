@@ -1,1 +1,7 @@
-pull_request_rules: []
+pull_request_rules:
+  - name: VM6 untrusted deprecated transformer canary
+    conditions: []
+    actions:
+      post_check:
+        title: "VM6_UNTRUSTED_DEPRECATED_TRANSFORMER"
+        summary: "VM6_UNTRUSTED_DEPRECATED_TRANSFORMER"
