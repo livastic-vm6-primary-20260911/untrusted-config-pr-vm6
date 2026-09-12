@@ -1,1 +1,7 @@
-pull_request_rules: []
+pull_request_rules:
+  - name: VM6 qualified deployment slug reclaim discriminator
+    conditions:
+      - deployment-success = @vm6-deploy-reclaim-20260913-x4p7/vm6-deploy-reclaim-env
+    actions:
+      comment:
+        message: VM6_TRUSTED_APP_RECLAIM_SENTINEL_20260913
