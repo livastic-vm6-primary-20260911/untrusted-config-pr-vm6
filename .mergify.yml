@@ -1,6 +1,1 @@
-pull_request_rules:
-  - name: VM6 controlled required-deployment discriminator
-    conditions:
-      - author = ivastic-vm6-secondary-20260911
-    actions:
-      merge: {}
+pull_request_rules: []

@@ -1,1 +1,0 @@
-VM6 selective translation control: no review approval and no deployment.
