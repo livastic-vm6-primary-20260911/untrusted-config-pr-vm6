@@ -1,0 +1,1 @@
+VM6 negative control: authenticated/raw author remains secondary; verified signature only.
