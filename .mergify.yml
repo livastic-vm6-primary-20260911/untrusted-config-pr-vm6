@@ -1,7 +1,1 @@
-pull_request_rules:
-  - name: VM6 qualified deployment slug reclaim merge impact
-    conditions:
-      - title = VM6 App slug reclaim merge impact
-      - deployment-success = @vm6-deploy-reclaim-20260913-x4p7/vm6-deploy-reclaim-env
-    actions:
-      merge: {}
+pull_request_rules: []
