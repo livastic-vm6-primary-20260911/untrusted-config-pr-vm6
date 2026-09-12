@@ -1,1 +1,1 @@
-extends: mergify-authz-revocation-vm6
+pull_request_rules: []
